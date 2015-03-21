@@ -1,14 +1,13 @@
 body{text-decoration:none}
-h1{text-align:center}
-#div1{background-color:#d4doc8; text-color:white; height:300px;}
-	#div1a{background-color:yellow; width:250px; align:center; margin-left:540px; border: 10px 10px 10px 10px; border-color:black; border-radius:10px}
+
+h1{text-align:center; color:white; font-family:Courier; font-size:50px}
+#div1{background-color:#d3doc8; text-color:white; height:300px;}
+	#div1a{background-color:yellowgreen; width:270px; margin:auto; border: 10px 10px 10px 10px; border-color:black; border-radius:10px; padding:10px 10px 10px 10px; margin-bottom:10px}
 	dropbox1{position:relative; border:30px 30px 30px 30px;}
 	dropbox2{position:relative; padding:15px 15px 15px 15px; display:inline-block}
 	input1{height:50px; width:100px}
 	button1{font-size:14px; color:orange; height:40px; width:80px; margin-left:100px}
-#div2{background-color:black; text-color:white; height:750px;}
-	checker{height:300px; width:700px}
-#div3{background-color:green; text-color:white; height:350px;}
-#div3>p{text-color:white};	
-float
-font-family,size
+#div2{background-color:black; color:white; height:750px; padding:25px 25px 25px 25px;}
+	checker{height:300px; width:700px; float:right}
+#div3{background-color:green; color:white; height:150px;}
+#div3>p{color:white; text-decoration:none};	
