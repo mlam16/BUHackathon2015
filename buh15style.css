@@ -1,0 +1,12 @@
+
+#div1{background-color:#d3doc8; text-color:white; height:300px;}
+	h1{text-align:center; color:white; font-family:Courier; font-size:50px}
+	#div1a{align:center; background-color:yellowgreen; width:380px; border: 10px 10px 10px 10px; border-color:yellow; border-radius:10px; padding:10px 10px 10px 10px; margin-bottom:10px}
+	dropbox1{position:relative; border:30px 30px 30px 30px; align:center}
+	dropbox2{padding:15px 15px 15px 15px; display:inline-block}
+	input1{height:50px; width:100px}
+	button{font-size:14px; color:orange; height:40px; width:85px; margin-left:100px}
+#div2{background-color:black; color:white; height:1000px; padding:20px 20px 20px 20px;}
+#div3{background-color:red; color:white; height:150px;}
+#div3>p{color:white; text-decoration:none;font:20px};	
+.optionpic {float:right; height:50px; width:50px; display:inline-block;}
