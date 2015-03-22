@@ -8,5 +8,5 @@
 	button{font-size:14px; color:orange; height:40px; width:85px; margin-left:100px}
 #div2{background-color:black; color:white; height:1000px; padding:20px 20px 20px 20px;}
 #div3{background-color:red; color:white; height:150px;}
-#div3>p{color:white; text-decoration:none;font:20px};	
-.optionpic {float:right; height:50px; width:50px; display:inline-block;}
+#div3>p{color:white; text-decoration:none;font:20px;}	
+.optionpic {height:200px; width:230px; display:inline-block;padding:5px 5px 5px 5px;}

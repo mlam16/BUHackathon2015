@@ -1,36 +1,30 @@
 
 
-
-var troll = prompt("You're walking through the forest, minding your own business, and you run into a troll! Do you FIGHT him, PAY him, or RUN?").toUpperCase();
-
+var troll = prompt("You arrive at Binghamton University. What building do you go to?").toUpperCase();
 switch(troll) {
-  case 'FIGHT':
-    var strong = prompt("How courageous! Are you strong (YES or NO)?").toUpperCase();
-    var smart = prompt("Are you smart?").toUpperCase();
-    if(strong === 'YES' || smart === 'YES') {
-      console.log("You only need one of the two! You beat the troll--nice work!");
-    } else {
-      console.log("You're not strong OR smart? Well, if you were smarter, you probably wouldn't have tried to fight a troll. You lose!");
-    }
+  case 'BARTLE':
+      confirm("Don't forget to bring your books.");
+      break;
+  case 'LECTURE HALL':
+      confirm("Cool. Your best friend is heading there too!");
+      break;
+  case 'DINING HALL':
+      confirm("All you think about is food.");
+      break;
+case 'LIBRARY':
+      confirm("We all know you sleep there...");
     break;
-  case 'PAY':
-    var money = prompt("All right, we'll pay the troll. Do you have any money (YES or NO)?").toUpperCase();
-    var dollars = prompt("Is your money in Troll Dollars?").toUpperCase();
-    if(money === 'YES' && dollars === 'YES') {
-      console.log("Great! You pay the troll and continue on your merry way.");
-    } else {
-      console.log("Dang! This troll only takes Troll Dollars. You get whomped!");
-    }
-    break;
-  case 'RUN':
-    var fast = prompt("Let's book it! Are you fast (YES or NO)?").toUpperCase();
-    var headStart = prompt("Did you get a head start?").toUpperCase();
-    if(fast === 'YES' || headStart === 'YES') {
-      console.log("You got away--barely! You live to stroll through the forest another day.");
-    } else {
-      console.log("You're not fast and you didn't get a head start? You never had a chance! The troll eats you.");
-    }
-    break;
+case 'CLASS':
+	confirm("There is no school today, FOOOLS!!!!")
+	break;
+case 'ENGINEERING BUILDING':
+	confirm("You go to the engineering building. You find $5 on the way. Cool!")
+	break;
+case 'ADMISSIONS CENTER':
+	confirm("You go to the admissions center. It starts to snow. You are SUPER annoyed.")
+	break;
+
   default:
-    console.log("I didn't understand your choice. Hit Run and try again, this time picking FIGHT, PAY, or RUN!");
+    	confirm("Where is that again? Ugh.");
+	confirm("You get lost because you cannot find this building.")
 }
